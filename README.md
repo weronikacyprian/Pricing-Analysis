@@ -1,6 +1,6 @@
 # Cross-Sectional Asset Pricing Analysis
 
-The Cross-Sectional Asset Pricing dataset includes 210 features. The target variable is 'excessret', a firm's excess return between the current and the previous quarter. In this project, I worked on a subset that includes the 'defined features' and the 'target variable' by performing preprocessing (in the subset, there will be 11 features in total including the target variable). I extracted the 'defined features' are as indicated below:
+The Cross-Sectional Asset Pricing dataset [finance_dataset.csv] includes 210 features. The target variable is 'excessret', a firm's excess return between the current and the previous quarter. In this project, I worked on a subset that includes the 'defined features' and the 'target variable' by performing preprocessing (in the subset, there will be 11 features in total including the target variable). I extracted the 'defined features' are as indicated below:
 
 defined_columns = ['high52', 'mom12m', 'mom6m', 'maxret', 'mom12moffseason', 'realizedvol', 'idiovolaht', 'zerotrade', 'indretbig', 'returnskew']
 
